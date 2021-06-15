@@ -1,0 +1,23 @@
+{
+  "name": "nodemongo2",
+  "version": "1.0.0",
+  "description": "node crud database",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sirafmitrais/nodemongo2.git"
+  },
+  "keywords": [
+    "api",
+    "crud"
+  ],
+  "author": "muhammad faris",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sirafmitrais/nodemongo2/issues"
+  },
+  "homepage": "https://github.com/sirafmitrais/nodemongo2#readme"
+}
