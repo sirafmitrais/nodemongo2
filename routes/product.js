@@ -13,6 +13,21 @@ router.get('/', async (req, res) => {
     }
 });
 
+router.delete('/:id', async (req, res) => {
+    try {
+        const products = await Product.deleteOne(req.query.id);
+        res.json(
+            {
+                "status":"200",
+                "message":"Successfully Deleted"
+            }
+            );
+    }
+    catch (err) {
+        console.log(err.message);
+    }
+});
+
 router.post('/', async (req, res) => {
     try {
         const product = new Product({
